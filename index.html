@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de um Integrante - Blog sobre Racionais MC's</title>
+    <style>
+        body {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #eeeeee;
+        }
+        header {
+            background-color: #000000;
+            color: #cc0000;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #cc0000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            color: #aaaaaa;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+        article {
+            background: #1e1e1e;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+            border-left: 5px solid #cc0000;
+        }
+        article h2 {
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .data {
+            font-size: 0.9rem;
+            color: #888888;
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+        }
+        .post-img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+        article p {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #dddddd;
+        }
+        /* Estilo dos Clipes do YouTube */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin: 20px 0;
+            border-radius: 4px;
+            border: 1px solid #333;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Seção de Comentários */
+        .comments-section {
+            margin-top: 30px;
+            border-top: 1px solid #333;
+            padding-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .comments-section h4 {
+            margin: 0 0 15px 0;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 1rem;
+        }
+        .comment-form input, .comment-form textarea, .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .comment-form textarea, .contact-form textarea {
+            height: 80px;
+            resize: vertical;
+        }
+        .btn-submit {
+            background: #cc0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        .btn-submit:hover {
+            background: #990000;
+        }
+        /* Barra Lateral */
+        aside {
+            height: fit-content;
+        }
+        .sidebar-box {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 4px;
+            border-top: 4px solid #cc0000;
+            margin-bottom: 30px;
+        }
+        .sidebar-box h3 {
+            margin-top: 0;
+            color: #ffffff;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+        }
+        .quote {
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            border-left: 3px solid #666;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            color: #cccccc;
+        }
+        .quote-author {
+            display: block;
+            font-size: 0.8rem;
+            color: #cc0000;
+            font-weight: bold;
+            margin-top: 5px;
+            font-style: normal;
+        }
+        footer {
+            background-color: #000000;
+            color: #888888;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            font-family: Arial, sans-serif;
+            border-top: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Voz Ativa</h1>
+        <p>A cultura, a poesia e o impacto real das letras dos Racionais MC's</p>
+    </header>
+
+    <div class="container">
+        <!-- ÁREA DOS POSTS -->
+        <main>
+            <article>
+                <h2>Sobrevivendo no Inferno: A Obra-Prima de 1997</h2>
+                <div class="data">Publicado em 20 de agosto de 2026</div>
+                <img class="post-img" src="https://wikimedia.org" alt="Capa do álbum Sobrevivendo no Inferno">
+                <p>Lançado no fim dos anos 90, este álbum transformou o rap nacional em literatura viva. Com faixas como "Diário de um Detento" e "Capítulo 4, Versículo 3", o grupo deu voz à periferia e escancarou a realidade social do país. A importância estética e cultural do disco é tão grande que ele se tornou leitura obrigatória no vestibular da Unicamp.</p>
+                
+                <!-- Clipe Incorporado do YouTube -->
+                <div class="video-container">
+                    <iframe src="https://youtube.com" title="Racionais MC's - Diário de um Detento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- Formulário de Comentários -->
+                <div class="comments-section">
+                    <h4>Deixe seu comentário</h4>
+                    <form class="comment-form" onsubmit="event.preventDefault(); alert('Comentário enviado para moderação!');">
+                        <input type="text" placeholder="Seu nome" required>
+                        <textarea placeholder="O que você acha dessa faixa? Opine aqui..." required></textarea>
+                        <button type="submit" class="btn-submit">Enviar Comentário</button>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h2>Nada como um Dia após o Outro Dia: O Resgate da Autoestima</h2>
+                <div class="data">Publicado em 18 de agosto de 2026</div>
+                <img class="post-img" src="https://scdn.co" alt="Estilo clássico Racionais MCs">
+                <p>O álbum duplo lançado em 2002 trouxe hinos atemporais como "Vida Loka (Pts. 1 e 2)", "Negro Drama" e "Jesus Chorou". Além de manter a crítica social afiada, o disco focou intensamente no resgate da dignidade, do orgulho e da união do povo preto e periférico, influenciando gerações de artistas urbanos até hoje.</p>
+                
+                <!-- Clipe Incorporado do YouTube -->
+                <div class="video-container">
+                    <iframe src="https://youtube.com" title="Racionais MC's - Negro Drama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- Formulário de Comentários -->
+                <div class="comments-section">
+                    <h4>Deixe seu comentário</h4>
+                    <form class="comment-form" onsubmit="event.preventDefault(); alert('Comentário enviado para moderação!');">
+                        <input type="text" placeholder="Seu nome" required>
+                        <textarea placeholder="O que você acha dessa faixa? Opine aqui..." required></textarea>
+                        <button type="submit" class="btn-submit">Enviar Comentário</button>
+                    </form>
+                </div>
+            </article>
+        </main>
+
+        <!-- BARRA LATERAL -->
+        <aside>
+            <!-- Bloco de Frases -->
+            <div class="sidebar-box">
+                <h3>Linhas Marcantes</h3>
+                <div class="quote">
+                    "Voz ativa em defesa da minha cor, mudei a postura e o meu modo de pensar."
+                    <span class="quote-author">— Voz Ativa</span>
+                </div>
+                <div class="quote">
+                    "A confiança é uma mulher ingrata, que te beija, te abraça, te rouba e te mata."
+                    <span class="quote-author">— Jesus Chorou</span>
+                </div>
+                <div class="quote">
+                    "Sou negro drama, cabelo crespo e a pele escura de cicatriz..."
+                    <span class="quote-author">— Negro Drama</span>
+                </div>
+            </div>
+
+            <!-- Bloco de Contato -->
+            <div class="sidebar-box">
+                <h3>Contato</h3>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                    <input type="text" placeholder="Seu nome" required>
